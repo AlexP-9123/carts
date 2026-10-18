@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.surati{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.wkap{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    width: 150px;
+    height: 42px;
+    font-size: large;
+    border: 2px solid red;
+    border-radius: 14px;
+}
+
+.wkap:hover{
+    background-color: orchid;
+    border: 3px solid black;
+    color: red;
+}
+
+span, .red{
+    color: red;
+}
+
+.cards{
+    background-color: black;
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+h1, h2{
+    color: white;
+}
+
+.items{
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rig{
+    margin-top: -30px;
+}
+
+#adjust{
+    margin-top: -10px;
+}
+
+.adjust{
+    margin-top: 40px;
+}
+
+.full{
+    display: flex;
+    justify-content: space-between;
+}
+
+.side{
+    background-color: rgb(6, 15, 75);
+    padding: 15px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    color: white;
+}
